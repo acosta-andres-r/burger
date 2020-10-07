@@ -40,8 +40,8 @@ function objToSql(ob) {
 // OBJECT RELATIONAL MAPPER for all our SQL statement functions
 const orm = {
   selectAll: function (tableInput, cb) {
-    const queryString = "SELECT * FROM ?;"
-    connection.query(queryString, tableInput, function (err, result) {
+    var queryString = "SELECT * FROM " + tableInput + ";";
+    connection.query(queryString, function (err, result) {
       if (err) throw err;
 
       cb(result);
