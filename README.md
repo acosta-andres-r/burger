@@ -6,7 +6,7 @@
 </div>
   
 ### Description
-With this application, you will be able to log a hamburger name, devour it and delete it. All the functionally was created using MySQL, Node, Express, Handlebars and built-in ORM.
+With this application, you will be able to log a hamburger name, devour it and delete it. All the functionalities were created by using MySQL, Node, Express, Handlebars and built-in ORM.
 
 ### Table of Contents
 
