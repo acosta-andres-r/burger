@@ -41,7 +41,7 @@ Demo
 ### License
 
 Copyright (c) Andres Acosta. All rights reserved.
-Licensed under the [MIT license](LICENSE.md).
+Licensed under the [MIT license](LICENSE).
 
 ### Credits
 
