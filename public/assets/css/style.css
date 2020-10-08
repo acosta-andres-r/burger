@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  padding-top: 20px;
+  color: rgb(63, 63, 63);
+  background: rgb(255, 250, 223);
+}
+
+header {
+  display: flex;
+  /* items */
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  background: yellow;
+}
+
+section {
+  display: flex;
+  /* items */
+  flex-direction: row;
+}
+
+li {
+  padding: 10px;
+  margin: 5px;
+  background: #ff5e0152;
+}
+
+button {
+  margin:  0 auto;
+  padding: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  /*  */
+  display: flex;
+  flex-direction: column;
+}
+
+.new-hamburgers {
+  padding: 10px 20px;
+  flex-grow: 1;
+}
+
+.devoured {
+  padding: 10px 20px;
+  flex-grow: 1;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 5px auto 5px auto;
+  /* margin-bottom: 5px; */
+  width: 50%;
+
+  display: flex;
+  /* items */
+  flex-direction: column;
+}
+
+.form-group textarea {
+  margin: 10px;
+  padding: 15px;
+  font-size: large;
+}
+
+.form-group label {
+  margin: 10px auto;
+  padding: 0 15px;
+}
+
+.form-group button {
+  align-self: flex-start
+}
