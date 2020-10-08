@@ -6,7 +6,7 @@
 </div>
   
 ### Description
-With this application, you will be able to log a hamburger name, devour it and delete it using MySQL, Node, Express, Handlebars and built-in ORM.
+With this application, you will be able to log a hamburger name, devour it and delete it. All the functionally was created using MySQL, Node, Express, Handlebars and built-in ORM.
 
 ### Table of Contents
 
@@ -32,11 +32,11 @@ Update state of burger:
 
 Delete burger:
 
-![](icons/delete.png)
+![](./icons/delete.png)
 
 Demo
 
-![](demo/burger-logger.gif)
+![](./demo/burger-logger.gif)
 
 ### License
 
