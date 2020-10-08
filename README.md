@@ -24,15 +24,15 @@ This app is completely deployed using Heroku: [Deployed Link](https://pure-cove-
 
 Log new burger:
 
-![](./icons/submit.png)
+<img src="./icons/submit.png" width="250" />
 
 Update state of burger:
 
-![](./icons/devour.png)  
+<img src="./icons/devour.png" width="150" />
 
 Delete burger:
 
-![](./icons/delete.png)
+<img src="./icons/delete.png" width="150" />
 
 Demo
 
