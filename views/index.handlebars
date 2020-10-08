@@ -1,25 +1,31 @@
-<h1>Eat-Da-Burger!</h1>
+<div class="container">
+  <header>
+    <h1>Eat-Da-Burger!</h1>
+    <img src="/assets/image/hamburger.jpg" alt="Hamburger image" width="200px">
+  </header>
+  <section>
+    <ol class="new-hamburgers">
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger-block devour=false}}
+      {{/unless}}
+      {{/each}}
+    </ol>
 
-<ol>
-  {{#each burgers}}
-  {{#unless devoured}}
-  {{> burgers/burger-block devour=false}}
-  {{/unless}}
-  {{/each}}
-</ol>
+    <ol class="devoured">
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger-block devour=true}}
+      {{/if}}
+      {{/each}}
+    </ol>
+  </section>
 
-<ol>
-  {{#each burgers}}
-  {{#if devoured}}
-  {{> burgers/burger-block devour=true}}
-  {{/if}}
-  {{/each}}
-</ol>
-
-<form class="create-form">
-  <div class="form-group">
-    <textarea type="text" id="bu" name="name"></textarea>
-    <label for="bu"> Click the "Submit" button.</label>
-    <button type="submit">Submit</button>
-  </div>
-</form>
+  <form class="create-form">
+    <div class="form-group">
+      <textarea type="text" id="bu" name="name"></textarea>
+      <label for="bu"> Enter a burger you want to eat. Click the "Submit" button.</label>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
